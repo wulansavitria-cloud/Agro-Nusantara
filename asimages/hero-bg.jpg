@@ -1,0 +1,9 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: 
+        linear-gradient(rgba(7,19,38,0.85), rgba(7,19,38,0.95)),
+        url('assets/images/hero-bg.jpg') center/cover no-repeat;
+    padding-top: 100px;
+}
