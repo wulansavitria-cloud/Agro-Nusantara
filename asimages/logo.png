@@ -1,0 +1,17 @@
+<div class="logo">Agro Nusantara</div>
+<div class="logo">
+    <img src="assets/images/logo.png" alt="Agro Nusantara Logo">
+</div>
+.logo img {
+    height: 45px;
+}
+<section class="image-section">
+    <div class="container">
+        <img src="assets/images/ship.jpg" alt="Shipping Trade">
+    </div>
+</section>
+.image-section img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
