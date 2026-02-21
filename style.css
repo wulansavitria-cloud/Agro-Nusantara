@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #071326;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* NAVBAR */
+header {
+    background: rgba(5, 15, 35, 0.95);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #D4AF37;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 400;
+}
+
+.btn-outline {
+    border: 1px solid #D4AF37;
+    padding: 8px 18px;
+    border-radius: 30px;
+    color: #D4AF37;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #071326, #0a1f3d);
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #D4AF37;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons a {
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background: #D4AF37;
+    color: #071326;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    border: 1px solid #D4AF37;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #D4AF37;
+}
+
+/* SECTIONS */
+.section {
+    padding: 100px 0;
+}
+
+.dark {
+    background: #0a1f3d;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #D4AF37;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: #0e2a52;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #123365;
+}
+
+.market-list {
+    list-style: none;
+    text-align: center;
+}
+
+.market-list li {
+    margin: 15px 0;
+}
+
+.custom-space {
+    margin-top: 60px;
+    padding: 40px;
+    border: 1px dashed #D4AF37;
+    border-radius: 12px;
+}
+
+footer {
+    background: #050f23;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
